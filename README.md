@@ -8,7 +8,7 @@ The aim of the project was to learn to use HTML, CSS and JavaScript to create a 
 To open the website from the terminal, follow these steps:
 
 1. Open a terminal or command prompt on your computer.
-2. Navigate to `personal-website` (the root directory of the project).
+2. Navigate to the root directory of the project.
 3. Start a local web server. If you have Python installed, you can use the following command:
 
    - For Python 3.x, use:
