@@ -1,5 +1,7 @@
 # Personal Website - Ronak Dhingra
 
+![alt text](./personal-website.png "Personal Website")
+
 This repository contains my single page personal homepage project made in my first year (May 2022).
 The aim of the project was to learn to use HTML, CSS and JavaScript to create a personal website.
 
