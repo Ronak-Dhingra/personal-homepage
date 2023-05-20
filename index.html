@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <title>Ronak's Website</title>
+
+    <!-- Internal CSS -->
+    <style>
+        #aboutme {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            background-color: transparent;
+        }
+
+        #aboutme td,
+        #aboutme th {
+            border: 1px solid white;
+            padding: 8px;
+            color: white;
+        }
+
+        #aboutme th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            color: white;
+        }
+
+        button {
+            color: white;
+            background-color: black;
+        }
+
+    </style>
+
+    <script src="./src/scripts/"></script>
+    <script src="./src/scripts/form.js"></script>
+</head>
+
+<body onload="loaded();">
+    <div class="box" id="background">
+        <!-- Hyperlink to local file system -->
+        <a href=".src/images/profile.png"><img src="./src/images/profile.png" alt="my picture" class="box-img"></a>
+
+        <!-- Inline CSS -->
+        <h1
+            style="font-weight: bold; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+            Ronak Dhingra</h1>
+
+        <!-- Modifiable font size and background color -->
+        <p style="text-align: center">
+            Student at IIIT Hyderabad
+        </p>
+        <p style="text-align: center">
+            Lifelong learner
+        </p>
+        <p style="text-align: center">
+            Basketball and Tennis Enthusiast
+        </p>
+        <p style="text-align: center">
+            Superhero Movies Fan
+        </p>
+        <ul>
+            <!-- Hyperlink to an external address on the internet-->
+            <li><a href="https://www.facebook.com/profile.php?id=100071898542757"><img src="./src/images/fb1.png" alt="facebook" width="150" height="150"></a></li>
+            <li><a href="mailto:dhingra.ronak@gmail.com"><img src="./src/images/email.jpg" alt="email" width="150" height="150"></a></li>
+        </ul>
+
+        <div class="btn-group">
+            <button class="button" onClick="red()">red</button>
+            <button class="button" onClick="blue()">blue</button>
+            <button class="button" onClick="green()">green</button>
+            <button class="button" onClick="yellow()">yellow</button>
+            <button class="button" onClick="orange()">orange</button>
+        </div>
+        <div class="btn-group1">
+            <button class="button" onClick="fontchange1()">20px font size</button>
+            <button class="button" onClick="fontchange2()">40px font size</button>
+            <button class="button" onClick="fontchange3()">60px font size</button>
+        </div>
+
+    </div>
+    <table id="aboutme">
+        <tr>
+            <th>Education Background</th>
+            <th>Achievements</th>
+            <th>Skills</th>
+        </tr>
+        
+        <tr>
+            <td>
+                <table id="aboutme">
+                    <tr>
+                        <th>Title</th>
+                        <th>Date</th>
+                    </tr>
+                    <tr>
+                        <td>Oakridge International School</td>
+                        <td>2019</td>
+                    </tr>
+                    <tr>
+                        <td>FIITJEE Junior College</td>
+                        <td>2021</td>
+                    </tr>
+                    <tr>
+                        <td>IIIT Hyderabad</td>
+                        <td>2025</td>
+                    </tr>
+                </table>
+            </td>
+
+            <td>
+                <table id="aboutme">
+                    <tr>
+                        <th>Title</th>
+                        <th>Date</th>
+                    </tr>
+                    <tr>
+                        <td>Times of India SPARK Scholarship</td>
+                        <td>2018</td>
+                    </tr>
+                    <tr>
+                        <td>Class 10: 96.2%</td>
+                        <td>2019</td>
+                    </tr>
+                    <tr>
+                        <td>Class 12: 97.8%</td>
+                        <td>2020</td>
+                    </tr>
+                    <tr>
+                        <td>IIT JEE: Rank 4k</td>
+                        <td>2021</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                Singer and Dancer
+                <br><br><br>
+                Basketball and Tennis Player
+                <br><br><br>
+                Regular Debater
+            </td>
+        </tr>
+    </table>
+
+    <form style="color:white; background-color: black;">
+        <label><b>News and Updates Section</b></label>
+        <input type="text" name="message" id="user_input">
+      </form>
+
+      <input type="submit" onclick="addEntry();">
+      <button onclick="clearStorage()">Clear List</button>
+
+
+    <ul style="color:white;background-color: black;"id='demo'></ul>
+</body>
+
+</html>
